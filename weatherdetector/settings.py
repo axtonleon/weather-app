@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-^y2)^epoh55#i2=d)i#l#12^-u*efr)_+1r9^s*^xu1ne5-qj8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['web-production-1571.up.railway.app']
 
 
 # Application definition
@@ -113,7 +113,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-
+CSRF_TRUSTED_ORIGINS = ['web-production-1571.up.railway.app']
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
